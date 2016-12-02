@@ -1,0 +1,5 @@
+﻿  tongbujiejuefangan.cpp
+  bufferOperate.cpp
+  正在生成代码...
+f:\users\king_tom_user_name\desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\tongbujiejuefangan\bufferoperate.cpp(11): error C4716: “remote_item”: 必须返回一个值
+f:\users\king_tom_user_name\desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\tongbujiejuefangan\bufferoperate.cpp(8): error C4716: “insert_item”: 必须返回一个值
