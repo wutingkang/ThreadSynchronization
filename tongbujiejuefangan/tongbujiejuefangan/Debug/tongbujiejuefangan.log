@@ -1,5 +1,9 @@
 ﻿  threadSynchronization.cpp
 f:\users\king_tom_user_name\desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\tongbujiejuefangan\buffer.h(3): warning C4005: “RAND_MAX”: 宏重定义
   f:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(339): note: 参见“RAND_MAX”的前一个定义
+  bufferOperate.cpp
+f:\users\king_tom_user_name\desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\tongbujiejuefangan\buffer.h(3): warning C4005: “RAND_MAX”: 宏重定义
+  f:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(339): note: 参见“RAND_MAX”的前一个定义
+  正在生成代码...
   tongbujiejuefangan.vcxproj -> F:\Users\King_Tom_user_name\Desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\Debug\tongbujiejuefangan.exe
   tongbujiejuefangan.vcxproj -> F:\Users\King_Tom_user_name\Desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\Debug\tongbujiejuefangan.pdb (Full PDB)

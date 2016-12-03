@@ -10,11 +10,6 @@ HANDLE Full;
 HANDLE Empty;
 HANDLE Mutex;
 
-//想办法： #include "bufferOperate.cpp"
-extern int currentPosition;
-int insert_item(buffer_item item);
-int remote_item(buffer_item item);
-
 int init()
 {
 	currentPosition = 0;
@@ -72,7 +67,6 @@ DWORD WINAPI comsumer(LPVOID lpPara)
 	return 0;
 }
 
-//F:\Users\King_Tom_user_name\Desktop\课件\操作系统\实验程序\tongbu\tongbujiejuefangan\Debug tongbujiejuefangan.exe 5000 3 3
 int main(int argc, char *argv[]) {
 	//1.Get command line arguments argc[1..2..3]
 	int mianSleepTime = atoi(argv[1]), producerNum = atoi(argv[2]), comsumerNum = atoi(argv[3]);
@@ -91,7 +85,7 @@ int main(int argc, char *argv[]) {
 		consumer_handle[i] = CreateThread(NULL, 0, comsumer, (LPVOID)i, 0, NULL);
 
 	//5.SLEEP
-	Sleep(5000);
+	Sleep(mianSleepTime);
 
 	//6.EXIT
 	CloseHandle(Mutex);
