@@ -6,7 +6,7 @@ int currentPosition = 0;
 
 //成功 0；失败 - 1
 int insert_item(buffer_item item) {
-	if (BUFFER_SIZE > currentPosition && 0 <= currentPosition) {
+	if (BUFFER_SIZE > currentPosition && -1 <= currentPosition) {
 		buffer[currentPosition] = item;
 		currentPosition++;
 		return 0;
@@ -16,10 +16,10 @@ int insert_item(buffer_item item) {
 }
 
 //先按照堆栈的方式remote
-int remote_item(buffer_item *item) {
-	if (BUFFER_SIZE > currentPosition && 0 < currentPosition) {
-		buffer[currentPosition] = *item;
+int remote_item(buffer_item item) {
+	if (BUFFER_SIZE >= currentPosition && 0 <= currentPosition) {
 		currentPosition--;
+		buffer[currentPosition] = item;
 		return 0;
 	}
 

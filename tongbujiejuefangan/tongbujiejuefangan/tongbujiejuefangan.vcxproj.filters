@@ -32,10 +32,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="tongbujiejuefangan.cpp">
+    <ClCompile Include="bufferOperate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="bufferOperate.cpp">
+    <ClCompile Include="threadSynchronization.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
